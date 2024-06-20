@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fb61da;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.lista-producto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
