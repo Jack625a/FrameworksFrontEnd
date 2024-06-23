@@ -5,15 +5,18 @@ import './App.css';
 
 const App = () => {
   const [books, setBooks] = useState([
-    { id: 1, title: 'Libro 1', author: 'Autor 1', genre: 'Ficción' },
-    { id: 2, title: 'Libro 2', author: 'Autor 2', genre: 'No ficción' },
-    // Más libros...
+    { id: 1, title: 'Libro 1', author: 'Jhimy F.R.', genre: 'Ficción' },
+    { id: 2, title: 'Libro 2', author: 'Jhimy F.R.', genre: 'No ficción' },
+    { id: 3, title: 'Libro 3', author: 'Jhimy F.R.', genre: 'Ciencia' },
+    { id: 4, title: 'Libro 4', author: 'Jhimy F.R.', genre: 'Historia' },
+    { id: 5, title: 'Libro 5', author: 'Jhimy F.R.', genre: 'Fantasía' },
+    
   ]);
 
   const [filterGenre, setFilterGenre] = useState('Todos');
 
   const addBook = (newBook) => {
-    setBooks([...books, { ...newBook, id: Date.now() }]);
+    setBooks([...books, { ...newBook, id: Date.now(), image: '/default-book.jpg' }]);
   };
 
   const deleteBook = (id) => {
@@ -34,7 +37,9 @@ const App = () => {
         <button onClick={() => setFilterGenre('Todos')}>Todos</button>
         <button onClick={() => setFilterGenre('Ficción')}>Ficción</button>
         <button onClick={() => setFilterGenre('No ficción')}>No ficción</button>
-        {/* Agregar más géneros según necesidad */}
+        <button onClick={() => setFilterGenre('Ciencia')}>Ciencia</button>
+        <button onClick={() => setFilterGenre('Historia')}>Historia</button>
+        <button onClick={() => setFilterGenre('Fantasía')}>Fantasía</button>
       </div>
       <BookList books={filteredBooks} deleteBook={deleteBook} updateBook={updateBook} />
     </div>

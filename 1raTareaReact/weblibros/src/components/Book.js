@@ -25,11 +25,12 @@ const Book = ({ book, deleteBook, updateBook }) => {
         </div>
       ) : (
         <div className="book-details">
+          <img src={book.image || '/default-book.jpg'} alt={book.title} className="book-image" />
           <h2>{book.title}</h2>
           <p>Autor: {book.author}</p>
           <p>Género: {book.genre}</p>
-          <button onClick={() => deleteBook(book.id)}>Eliminar</button>
-          <button onClick={() => setIsEditing(true)}>Editar</button>
+          <button onClick={() => deleteBook(book.id)} className="delete-button">Eliminar</button>
+          <button onClick={() => setIsEditing(true)} className="edit-button">Editar</button>
         </div>
       )}
     </div>
