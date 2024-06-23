@@ -6,6 +6,8 @@ import './App.css';
 const App = () => {
   const [books, setBooks] = useState([
     { id: 1, title: 'Libro 1', author: 'Jhimy F.R.', genre: 'Ficción' },
+    { id: 1, title: 'Libro 1', author: 'Jhimy F.R.', genre: 'Ficción' },
+    { id: 1, title: 'Libro 1', author: 'Jhimy F.R.', genre: 'Ficción' },
     { id: 2, title: 'Libro 2', author: 'Jhimy F.R.', genre: 'No ficción' },
     { id: 3, title: 'Libro 3', author: 'Jhimy F.R.', genre: 'Ciencia' },
     { id: 4, title: 'Libro 4', author: 'Jhimy F.R.', genre: 'Historia' },
