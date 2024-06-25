@@ -43,3 +43,26 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.lista-tareas{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.tarea{
+  margin: 10px;
+  display: flex;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 18px rgba(0,0,0,0.1);
+}
+.tarea span{
+  margin: 3px;
+  flex-grow: 1;
+}
+.tarea button{
+  padding: 5px 10px;
+  margin-left: 5px;
+  background-color: aquamarine;
+}

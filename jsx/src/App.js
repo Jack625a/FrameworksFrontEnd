@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import ListaProductos from './ListaProductos';
+import ListaTareas from './ListaTareas';
+import ListaNotas from './ListaNotas';
+
 
 //Introduccion JSX
 //Componentes
@@ -71,6 +74,8 @@ function App() {
   return (
     <div className='App'>
       <ListaProductos/>
+      <ListaTareas/>
+      <ListaNotas/>
     </div>
   );
 }
