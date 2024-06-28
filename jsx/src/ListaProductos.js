@@ -3,7 +3,7 @@ import React, {useState} from "react";
 import Producto from "./Producto";
 
 function ListaProductos(){
-    const[productos,setProductos]=useState([
+    const[productos]=useState([
         {
             id: 1,
             nombre: 'Producto 1',

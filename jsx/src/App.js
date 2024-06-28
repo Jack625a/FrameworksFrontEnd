@@ -1,8 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 import React from 'react';
 import ListaProductos from './ListaProductos';
+import ListaTareas from './ListaTareas';
+
+import ListaNotas from './ListaNotas';
+
+
 
 /*
 const titulo=<h1 className='saludar'>PRIMER WEB</h1>;
@@ -73,9 +78,14 @@ const boton=<button onClick={boton}>boton de prueba</button>
 function App() {
     return (
      <div className='App'>
+      <hi>lista de productos disponibles</hi>
       <ListaProductos>
         
       </ListaProductos>
+      <ListaTareas/>
+
+      <ListaNotas/>
+      
      </div>
     );
   }
