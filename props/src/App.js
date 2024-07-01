@@ -3,6 +3,8 @@ import ComponenteHijo from './componenteHijo';
 import ListaTareas from './ListaTareas';
 import Galeria from './Galeria';
 import Contador from './Contador';
+import ListaComentarios from './ListaCometarios';
+import Formulario from './Formulario';
 import './App.css';
 
 
@@ -33,6 +35,16 @@ function App(){
     ];
 
 
+      //Comentarios
+  const comentarios=[
+    {id:1,autor:'Kevin',texto:'Comentario 1'},
+    {id:2,autor:'Juan',texto:'Comentario 2'},
+    {id:3,autor:'Maria',texto:'Comentario 3'},
+    {id:4,autor:'Jose',texto:'Comentario 4'},
+    {id:5,autor:'Raul',texto:'Comentario 5'},
+  ];
+
+
   return(
     <div className='App'>
       <h1>Lista de Productos</h1>
@@ -54,6 +66,16 @@ function App(){
 
       <h2>Contador - Componente de Clase</h2>
       <Contador/>
+
+
+      <h2>Lista de Comentarios</h2>
+      <ListaComentarios
+        comentarios={comentarios}
+      />
+
+      <h2>Formulario de Contacto</h2>
+      <Formulario/>
+
      
     </div>
   );
