@@ -1,0 +1,48 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo {
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+/* src/PhotoGallery.css */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo {
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+#album-filter {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
