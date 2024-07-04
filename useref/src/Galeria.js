@@ -19,8 +19,9 @@ function Galeria(){
     },[]);
 
     return(
-        <div className='slider'>
+        <div className='w-full relative overflow-hidden'>
             <img
+                className='w-full h-80 object-cover '
                 src={actualizarImagen}
                 alt='Galeria'
             />

@@ -6,6 +6,7 @@ import Categorias from './Categorias';
 import Galeria from './Galeria';
 import ListaProductos from './ListaProductos';
 import Modal from './Modal';
+import PruebaEstilos from './PruebaEstilos';
 
 
 /*
