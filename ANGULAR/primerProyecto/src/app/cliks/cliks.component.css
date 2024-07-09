@@ -1,0 +1,14 @@
+.contador{
+    max-width: 300px;
+    margin: 10;
+    text-align: center;
+}
+button{
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: beige;
+    font-weight: bold;
+    border-radius: 8px;
+}
