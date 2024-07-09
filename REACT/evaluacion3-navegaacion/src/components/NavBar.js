@@ -1,16 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
-  return (
-    <nav>
-      <ul>
-        <li><Link to="/">Inicio</Link></li>
-        <li><Link to="/about"> Nosotros</Link></li>
-        <li><Link to="/contact">Contacto</Link></li>
-      </ul>
+return(
+    <nav className='navbar'>
+      <div >
+        
+        <div className='divbar' >
+          <Link to="/" className="divbar">Inicio</Link>
+          <Link to="/About" className="divbar">Nosotros</Link>
+          <Link to="/Contact" className="divbar">Contáctenos</Link>
+        </div>
+        
+      </div>
+      
     </nav>
-  );
+);
+
 };
 
 export default NavBar;

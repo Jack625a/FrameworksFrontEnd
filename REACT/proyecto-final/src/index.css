@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.lema1{
+  font-family: 'PP Hatton', sans-serif;
+  
+}
+.lema2{
+ font-family: 'Forum', sans-serif;
+}
+.nosotros,
+.servicios,
+.normativa,
+.contacto {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+    
+}
+.trucazo{
+    opacity: 0;
+}
+/*--------------- NOSOTROS Section -------------*/
+.nosotros{
+  --opacidad-negro: 0.65;
+  background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("./components/img/nosotros.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  backface-visibility:inherit;
+}
+.nosotros .encabezado{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.nosotros h2 {
+  font-size: 2.5rem;
+  font-family: "PP hatton";
+  height: 3rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 6px ;
+}
+.nosotros .persona{
+  font-size: 1.5rem;
+  font-family: 'forum';
+  color: rgb(255, 255, 255);
+  
+  height: 3rem;
+  justify-content: center;padding: 6px;
+}
+.mis-vis-val {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.cuadro {
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  border-radius: 10px
+
+}
+
+.cuadro .frente,
+.cuadro .reverso {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: transform 0.6s;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .mis-vis-val {
+      padding-top: 50px;
+      display: block;
+      justify-content:baseline;
+      align-items: center;
+      flex-direction: column;
+      
+  }
+  .cuadro {
+      width: 300px;
+      height: 300px;
+      perspective: 1000px;
+      border-radius: 10px;
+      margin: 0 auto;
+  
+  }
+  .cuadro .frente,
+  .cuadro .reverso {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: transform 0.6s;
+  border-radius: 20px;
+  margin: 10px 10px;
+  }
+  
+}
+
+.cuadro .frente {
+  background-color: #2a9d8f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-family: 'PP Hatton';
+}
+
+.cuadro .reverso {
+  background-color: #FFA500;
+  color: #fff;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.cuadro:hover .frente {
+  transform: rotateY(180deg);
+}
+
+.cuadro:hover .reverso {
+  transform: rotateY(0deg);
+}
+
+/*------------- SERVICIOS Section -------------- */
+.servicios {
+  --opacidad-negro: 0.5;
+  background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("./components/img/services.jpg");
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/*---------------NORMATIVA-----------*/
+.normativa {
+  text-align: center;
+  --opacidad-negro: 0.5;
+  background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("./components/img/galeria.jpg");
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.document-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.document-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.document-item img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.download-button {
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #f1c40f;
+}

@@ -15,14 +15,26 @@ body {
   font-family: Arial, sans-serif;
 }
 
-nav ul {
+.navbar 
+{
   list-style-type: none;
   padding: 0;
+  background-color: black;
+  width: 100%;
+  align-items: end;
+  justify-content: space-between;
 }
 
-nav ul li {
+.divbar  {
   display: inline;
   margin-right: 10px;
+  color:yellow;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: end;
+  justify-content: space-between;
+
 }
 
 form div {
