@@ -1,0 +1,28 @@
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-sections {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .sections a {
+    color: #ffa500;
+    text-decoration: none;
+    font-family: 'PP Hatton', sans-serif;
+  }
+  
+  .sections a:hover {
+    color: #fff;
+  }
+  
+  .contact-info p, .contact-info a {
+    margin: 5px 0;
+    color: #ffa500;
+    font-family: 'Forum', serif;
+  }
+  

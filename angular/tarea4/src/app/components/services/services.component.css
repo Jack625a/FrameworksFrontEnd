@@ -1,0 +1,26 @@
+.services {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .accordion {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .accordion-button {
+    font-family: 'PP Hatton', sans-serif;
+    background-color: #000;
+    color: #ffa500;
+    border: none;
+  }
+  
+  .accordion-button:hover {
+    background-color: #ffa500;
+    color: #000;
+  }
+  
+  .accordion-body {
+    font-family: 'Forum', serif;
+  }
+  

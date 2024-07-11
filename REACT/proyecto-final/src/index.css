@@ -41,6 +41,7 @@ code {
   background-size:cover;
   background-repeat: no-repeat;
   backface-visibility:inherit;
+  
 }
 .nosotros .encabezado{
   display: flex;

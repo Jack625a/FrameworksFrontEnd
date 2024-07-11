@@ -1,0 +1,58 @@
+.contact {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info {
+    width: 45%;
+  }
+  
+  .map {
+    margin-bottom: 20px;
+  }
+  
+  .info p {
+    margin: 5px 0;
+  }
+  
+  .contact-form {
+    width: 45%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-family: 'PP Hatton', sans-serif;
+  }
+  
+  input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: 'Forum', serif;
+  }
+  
+  button {
+    background-color: #000;
+    color: #ffa500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'PP Hatton', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #ffa500;
+    color: #000;
+  }
+  

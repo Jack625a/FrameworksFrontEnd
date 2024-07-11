@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link to="/" className="hover:text-orange-500 ">Inicio</Link>
           <Link to="/nosotros" className="hover:text-orange-500">Nosotros</Link>
           <Link to="/servicios" className="hover:text-orange-500">Servicios</Link>
-          <Link to="/normativa" className="hover:text-orange-500">Normativa</Link>
+          
           <Link to="/contactenos" className="hover:text-orange-500">Contáctenos</Link>
         </div>
         <div className="md:hidden">
@@ -35,7 +35,7 @@ const Navbar = () => {
           <Link to="/" className="block px-4 py-2 hover:bg-orange-500">Inicio</Link>
           <Link to="/nosotros" className="block px-4 py-2 hover:bg-orange-500">Nosotros</Link>
           <Link to="/servicios" className="block px-4 py-2 hover:bg-orange-500">Servicios</Link>
-          <Link to="/normativa" className="block px-4 py-2 hover:bg-orange-500">Normativa</Link>
+          
           <Link to="/contactenos" className="block px-4 py-2 hover:bg-orange-500">Contáctenos</Link>
         </div>
       )}

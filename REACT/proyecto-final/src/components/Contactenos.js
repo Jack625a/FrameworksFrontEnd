@@ -8,7 +8,7 @@ const Contactenos = () => {
         <div className="flex flex-wrap justify-around">
           <div className="w-full md:w-1/2 p-4">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799193797!2d-74.25987568762116!3d40.69714942213459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2467d22ff0f63%3A0x1c42b9926f66c31!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1620322353981!5m2!1sen!2sus"
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=AVENIDA%20JOSE%20BALLIVIAN+(JOINT%20COMMERCE)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               width="100%"
               height="300"
               allowFullScreen=""

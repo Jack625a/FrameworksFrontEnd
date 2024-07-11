@@ -2,10 +2,12 @@ import React from 'react';
 
 const Nosotros = () => {
   return (
-    <section className="nosotros py-20 bg-yellow-400 text-center ">
+    <section className="nosotros py-20 bg-yellow-400 text-center">
     <div className="encabezado">
         <h2 className='text-yellow-500'>NOSOTROS</h2>
-        <p className="persona text-sky-50">Somos una empresa comprometida con sus clientes, que brinda servicios de calidad a los operadores de Comercio Exterior.</p>
+        <br/>
+        <p className="persona text-sky-50 py-3">Somos una empresa comprometida con sus clientes, que brinda servicios de calidad a los operadores de Comercio Exterior.</p>
+        <br/>    
     </div>
     <br/>
     <div className="mis-vis-val">

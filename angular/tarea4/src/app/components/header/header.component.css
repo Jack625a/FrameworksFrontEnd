@@ -1,0 +1,38 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  z-index: 1000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'PP Hatton', sans-serif;
+}
+
+.nav-links li a:hover, .nav-links li a.active {
+  color: #ffa500;
+}
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+}

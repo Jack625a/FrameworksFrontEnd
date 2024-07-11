@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+    font-family: 'PP Hatton', sans-serif;
+    background-color: #e0e0e0; /* Gris marmolado */
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    padding: 50px 20px;
+    margin: 2px 0;
+    background-size: cover;
+  }
+  
+  h2 {
+    font-family: 'Forum', serif;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ffa500;
+    color: #000;
+  }
+  

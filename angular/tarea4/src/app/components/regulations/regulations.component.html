@@ -1,0 +1,11 @@
+<section class="regulations">
+    <h2>Normativa Aduanera</h2>
+    <div class="pdf-gallery">
+      <div class="pdf-item" *ngFor="let doc of documents">
+        <img [src]="doc.thumbnail" alt="Document Thumbnail">
+        <p>{{ doc.name }}</p>
+        <button (click)="downloadPDF(doc.url)">Descargar</button>
+      </div>
+    </div>
+  </section>
+  
